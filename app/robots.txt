@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Permitir acesso a todas as páginas importantes
+Allow: /perguntas-frequentes
+Allow: /avaliacao
+Allow: /termos-garantia
+Allow: /termos
+Allow: /privacidade
+
+Sitemap: https://www.definamaxoficial.com/sitemap.xml
