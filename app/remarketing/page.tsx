@@ -291,11 +291,10 @@ export default function ReMarketingPage() {
       <section className="w-full bg-gradient-to-b from-green-50 to-white py-8 md:py-12">
         <div className="mx-auto max-w-5xl px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">
-            Depoimentos de Clientes <span className="text-green-600">Definamax</span>
+          Veja Como Clientes Emagreceram e Recuperaram a Autoestima com <span className="text-green-600">Definamax</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 mb-6 max-w-3xl mx-auto">
-            Assista a estes vídeos e descubra como o Definamax está transformando a vida de milhares de
-            pessoas
+          Descubra como brasileiros como você perderam peso, reduziram medidas e se sentiram mais confiantes para o dia a dia com Definamax. Assista agora e inspire-se!
           </p>
           <div className="flex items-center justify-center mb-8">
             <div className="inline-flex items-center bg-green-50 px-3 py-1 rounded-lg">
@@ -490,9 +489,9 @@ export default function ReMarketingPage() {
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-1 sm:p-1.5 mb-2 text-xs text-center">
                   <p className="font-medium text-yellow-800">
                     <span className="inline-block bg-yellow-200 text-yellow-800 px-1 py-0.5 rounded text-xs font-bold mr-1">
-                      EMAGREÇA ATÉ 5KG
+                      VOCÊ ECONOMIZA
                     </span>
-                    COM ESSE KIT!
+                    R$20,00
                   </p>
                 </div>
 
@@ -565,9 +564,9 @@ export default function ReMarketingPage() {
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-1 sm:p-1.5 mb-2 text-xs text-center">
                   <p className="font-medium text-yellow-800">
                     <span className="inline-block bg-yellow-200 text-yellow-800 px-1 py-0.5 rounded text-xs font-bold mr-1">
-                      EMAGREÇA ATÉ 13KG
+                      VOCÊ ECONOMIZA
                     </span>
-                    COM ESSE KIT!
+                    R$420,00
                   </p>
                 </div>
 
@@ -638,9 +637,9 @@ export default function ReMarketingPage() {
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-1 sm:p-1.5 mb-2 text-xs text-center">
                   <p className="font-medium text-yellow-800">
                     <span className="inline-block bg-yellow-200 text-yellow-800 px-1 py-0.5 rounded text-xs font-bold mr-1">
-                      EMAGREÇA ATÉ 19KG
+                      VOCÊ ECONOMIZA
                     </span>
-                    COM ESSE KIT!
+                    R$1.000,00
                   </p>
                 </div>
 

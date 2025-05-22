@@ -3,7 +3,7 @@ import ThankYouClientPage from "./ThankYouClientPage"
 
 export const metadata: Metadata = {
   title: "Obrigado pela sua compra | Definamax",
-  description: "Agradecemos pela sua confiança, Seu pedido foi recebido com sucesso.",
+  description: "Agradecemos pela sua confiança. Seu pedido foi recebido com sucesso.",
 }
 
 export default function ThankYouPage() {

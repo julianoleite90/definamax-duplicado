@@ -1,9 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { Inter } from "next/font/google"
 import "./globals.css"
 
+const inter = Inter({ subsets: ["latin"] })
+
 export const metadata: Metadata = {
-  title: "Definamax | Emagreça rápido sem dietas restritivas ou injeções perigosas",
+  title: "Definamax Site Oficial - Emagrecedor N1 do Brasil",
   description:
     "Descubra o poder das fibras alimentares que absorvem a gordura, aceleram o metabolismo e aumentam a saciedade. Resultados visíveis em semanas com Definamax.",
   icons: {
@@ -14,9 +17,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: "https://www.definamaxoficial.com",
-    title: "Definamax | Emagreça rápido sem dietas restritivas",
+    title: "Definamax Site Oficial - Emagrecedor N1 do Brasil",
     description:
-      "Descubra o poder das fibras alimentares que absorvem a gordura, aceleram o metabolismo e aumentam a saciedade. Resultados visíveis em semanas.",
+      "Emagreça rápido sem dietas restritivas ou injeções perigosas com Definamax, o suplemento natural que absorve gordura e acelera seu metabolismo.",
     siteName: "Definamax",
     images: [
       {
@@ -26,6 +29,16 @@ export const metadata: Metadata = {
         alt: "Definamax - Suplemento Natural para Emagrecimento",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Definamax Site Oficial - Emagrecedor N1 do Brasil",
+    description:
+      "Emagreça rápido sem dietas restritivas ou injeções perigosas com Definamax, o suplemento natural que absorve gordura e acelera seu metabolismo.",
+    images: ["/og.png"],
+  },
+  alternates: {
+    canonical: "https://www.definamaxoficial.com/",
   },
   verification: {
     google: "055Y8Zlr7CXBMOD8_TVqgFAiashS0o5vcUD8K7vxO_s",
@@ -66,7 +79,7 @@ export default function RootLayout({
         />
         {/* End Google Analytics */}
       </head>
-      <body>
+      <body className={inter.className}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
